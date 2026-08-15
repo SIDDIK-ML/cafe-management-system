@@ -1,4 +1,3 @@
-
 Menu = {
     "Pizza": 150,
     "Burger": 100,
