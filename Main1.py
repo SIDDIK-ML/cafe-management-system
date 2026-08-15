@@ -1,42 +1,4 @@
-# #Define Menu of Cafe 
-# Menu = {
-#     "Pizza" : 150,
-#     "Burger" : 100,
-#     "Sandwich" : 100,
-#     "Pasta" : 80,
-#     "French fries" : 60,
-#     "Milkshake" : 80,
-#     "Cold Coffee" : 50
-# }
 
-# #greet
-# print("Welcome to Python Cafe!")
-# print("Pizza : Rs150\nBurger : Rs100\nSandwich : Rs100\nPasta : Rs80\nFrench fries : Rs60\nMilkshake : Rs80\nCold Coffee : Rs50 ")
-
-# Order_total = 0
-# item_1 = input("Enter the name of item you want to order = ")
-# if item_1 in Menu :
-#     Order_total += Menu[item_1]
-#     print(f"Your item {item_1} has been added to your order")
-
-# else:
-#     print(f"ordered item {item_1} is not avaliable yet!")
-
-# Another_item = input("Do you want to order anything else? (Yes/No)")
-
-# if Another_item == "Yes":
-#     item_2 = input("Enter the name of item you want to order = ")
-#     if item_2 in Menu :
-#         Order_total += Menu[item_2]
-#         print(f"Your item {item_2} has been added to your order")
-        
-#     else:
-#             print(f"ordered item {item_2} is not avaliable yet!")
-            
-
-# print(f"The total amountof items to pay is {Order_total}")
-#         #    
-# """Advance"""
 Menu = {
     "Pizza": 150,
     "Burger": 100,
